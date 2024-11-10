@@ -3,24 +3,87 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Redirecting...</title>
-    <script type="text/javascript">
-        // Set the time in milliseconds (3000ms = 3 seconds)
-        setTimeout(function() {
-            window.location.href = "https://www.profitablecpmrate.com/dmw2zwy2zw?key=644d2d233fa3f0784ad7ee6a0b2b1929";  // Change this to your target URL
-        }, 4000);
-    </script>
+    <title>Loading </title>
+    <style>
+        /* Basic Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        /* Top Header Loading */
+        #header-loading {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            font-size: 16px;
+            z-index: 9999;
+        }
+
+        /* Loading Spinner */
+        .spinner {
+            border: 4px solid #f3f3f3;
+            border-top: 4px solid #3498db;
+            border-radius: 50%;
+            width: 20px;
+            height: 20px;
+            animation: spin 2s linear infinite;
+            display: inline-block;
+            margin-left: 5px;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        /* Main Content */
+        .content {
+            padding-top: 50px; /* Space for fixed header */
+            text-align: center;
+            margin-top: 100px;
+        }
+
+        /* Bottom Loading Spinner */
+        #bottom-loading {
+            display: none;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        /* Redirect Timer Message */
+        .redirect-message {
+            font-size: 18px;
+            margin-top: 20px;
+        }
+    </style>
 </head>
 <body>
-    <div style="text-align: center; margin-top: 50px;">
-        <h1>Video is loading...</h1>
-        <p>You will be Watching Video Automatically.</p>
+
+    <!-- Top Header Loading Indicator -->
+    <div id="header-loading">
+        <span>Loading<span class="spinner"></span></span>
     </div>
-<center><iframe src="//www.highperformanceformat.com/watchnew?key=c695022830d29f554566d52ced56c05e" width="728" height="90" frameborder="0" scrolling="no"></iframe>
-<iframe src="//www.highperformanceformat.com/watchnew?key=6f91b2e74175289e72efdbd4de06e4ae" width="468" height="60" frameborder="0" scrolling="no"></iframe>
-<iframe src="//www.highperformanceformat.com/watchnew?key=9b1951d2b2baa3ad9291cc05b3744126" width="320" height="50" frameborder="0" scrolling="no"></iframe>
-<iframe src="//www.highperformanceformat.com/watchnew?key=8dd7195adb56780860f8bc33712cf780" width="300" height="250" frameborder="0" scrolling="no"></iframe>
-<script async="async" data-cfasync="false" src="//pl24334023.profitablecpmrate.com/5f90ff2a3ecd09d577dab21859f9f498/invoke.js"></script>
+
+    <!-- Main Content Area -->
+
+    <!-- Bottom Loading Indicator (appears after content loads) -->
+    <div id="bottom-loading">
+        <span>Video Loding <span class="spinner"></span></span>
+    </div>
+  <br>
+  <center><iframe src="//www.highperformanceformat.com/watchnew?key=c695022830d29f554566d52ced56c05e" width="728" height="90" frameborder="0" scrolling="no"></iframe></center>
+<center><iframe src="//www.highperformanceformat.com/watchnew?key=6f91b2e74175289e72efdbd4de06e4ae" width="468" height="60" frameborder="0" scrolling="no"></iframe></center>
+<center><iframe src="//www.highperformanceformat.com/watchnew?key=9b1951d2b2baa3ad9291cc05b3744126" width="320" height="50" frameborder="0" scrolling="no"></iframe></center>
+<center><iframe src="//www.highperformanceformat.com/watchnew?key=8dd7195adb56780860f8bc33712cf780" width="300" height="250" frameborder="0" scrolling="no"></iframe></center>
+<center><script async="async" data-cfasync="false" src="//pl24334023.profitablecpmrate.com/5f90ff2a3ecd09d577dab21859f9f498/invoke.js"></script>
 <div id="container-5f90ff2a3ecd09d577dab21859f9f498"></div></center>
 
 <script type='text/javascript' src='//pl24279722.profitablecpmrate.com/5f/37/d1/5f37d1e58d7fcd8fc7729ca7741d50e8.js'></script>
@@ -34,7 +97,27 @@
                 window.open(siteUrl, '_blank');
             }, 100); // Adjust delay as necessary
         });
-    </script>   
-    
+    </script>  
+  
+
+    <script>
+        // Simulate loading of the page content
+        window.onload = function() {
+            // Hide the top header loading after content has loaded
+            document.getElementById("header-loading").style.display = 'none';
+
+            // Show bottom loading animation after a short delay
+            setTimeout(function() {
+                document.getElementById("bottom-loading").style.display = 'block';
+            }, 500);
+
+            // Redirect after 4 seconds
+            setTimeout(function() {
+                window.location.href = "https://www.profitablecpmrate.com/dmw2zwy2zw?key=644d2d233fa3f0784ad7ee6a0b2b1929";  // Change this to your target URL
+            }, 4000);
+        }
+    </script>
+
 </body>
 </html>
+
