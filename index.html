@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Loading </title>
+    <title>Loading</title>
     <style>
         /* Basic Styles */
         body {
@@ -63,6 +63,53 @@
             font-size: 18px;
             margin-top: 20px;
         }
+
+        /* Responsive Design for screens smaller than 768px */
+        @media (max-width: 768px) {
+            #header-loading {
+                font-size: 14px;
+                padding: 8px;
+            }
+
+            .spinner {
+                width: 16px;
+                height: 16px;
+            }
+
+            .content {
+                margin-top: 70px;
+                padding-top: 20px;
+            }
+
+            iframe {
+                width: 90%;
+                height: auto;
+                max-width: 100%;
+                margin-bottom: 10px;
+            }
+        }
+
+        /* For screens smaller than 480px */
+        @media (max-width: 480px) {
+            #header-loading {
+                font-size: 12px;
+                padding: 6px;
+            }
+
+            .spinner {
+                width: 12px;
+                height: 12px;
+            }
+
+            .redirect-message {
+                font-size: 16px;
+            }
+
+            iframe {
+                width: 95%;
+                height: auto;
+            }
+        }
     </style>
 </head>
 <body>
@@ -73,20 +120,32 @@
     </div>
 
     <!-- Main Content Area -->
+    <div class="content">
+        <!-- Bottom Loading Indicator (appears after content loads) -->
+        <div id="bottom-loading">
+            <span>Video Loading <span class="spinner"></span></span>
+        </div>
 
-    <!-- Bottom Loading Indicator (appears after content loads) -->
-    <div id="bottom-loading">
-        <span>Video Loding <span class="spinner"></span></span>
+        <!-- Embedded Ads -->
+        <center>
+            <iframe src="//www.highperformanceformat.com/watchnew?key=c695022830d29f554566d52ced56c05e" width="728" height="90" frameborder="0" scrolling="no" loading="lazy"></iframe>
+        </center>
+        <center>
+            <iframe src="//www.highperformanceformat.com/watchnew?key=6f91b2e74175289e72efdbd4de06e4ae" width="468" height="60" frameborder="0" scrolling="no" loading="lazy"></iframe>
+        </center>
+        <center>
+            <iframe src="//www.highperformanceformat.com/watchnew?key=9b1951d2b2baa3ad9291cc05b3744126" width="320" height="50" frameborder="0" scrolling="no" loading="lazy"></iframe>
+        </center>
+        <center>
+            <iframe src="//www.highperformanceformat.com/watchnew?key=8dd7195adb56780860f8bc33712cf780" width="300" height="250" frameborder="0" scrolling="no" loading="lazy"></iframe>
+        </center>
+        <center>
+            <script async="async" data-cfasync="false" src="//pl24334023.profitablecpmrate.com/5f90ff2a3ecd09d577dab21859f9f498/invoke.js"></script>
+            <div id="container-5f90ff2a3ecd09d577dab21859f9f498"></div>
+        </center>
     </div>
-  <br>
-  <center><iframe src="//www.highperformanceformat.com/watchnew?key=c695022830d29f554566d52ced56c05e" width="728" height="90" frameborder="0" scrolling="no"></iframe></center>
-<center><iframe src="//www.highperformanceformat.com/watchnew?key=6f91b2e74175289e72efdbd4de06e4ae" width="468" height="60" frameborder="0" scrolling="no"></iframe></center>
-<center><iframe src="//www.highperformanceformat.com/watchnew?key=9b1951d2b2baa3ad9291cc05b3744126" width="320" height="50" frameborder="0" scrolling="no"></iframe></center>
-<center><iframe src="//www.highperformanceformat.com/watchnew?key=8dd7195adb56780860f8bc33712cf780" width="300" height="250" frameborder="0" scrolling="no"></iframe></center>
-<center><script async="async" data-cfasync="false" src="//pl24334023.profitablecpmrate.com/5f90ff2a3ecd09d577dab21859f9f498/invoke.js"></script>
-<div id="container-5f90ff2a3ecd09d577dab21859f9f498"></div></center>
 
-<script type='text/javascript' src='//pl24279722.profitablecpmrate.com/5f/37/d1/5f37d1e58d7fcd8fc7729ca7741d50e8.js'></script>
+    <script type="text/javascript" src="//pl24279722.profitablecpmrate.com/5f/37/d1/5f37d1e58d7fcd8fc7729ca7741d50e8.js" defer></script>
   
     <script>
         document.addEventListener('click', function() {
@@ -98,7 +157,6 @@
             }, 100); // Adjust delay as necessary
         });
     </script>  
-  
 
     <script>
         // Simulate loading of the page content
@@ -120,4 +178,3 @@
 
 </body>
 </html>
-
